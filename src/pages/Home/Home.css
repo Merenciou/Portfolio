@@ -1,0 +1,44 @@
+#homePage{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    background-color: beige;
+}
+
+.containerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+}
+
+.homepageTitle{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 100px;
+    font-weight: 500;
+    font-style: normal;
+    color: #021526;
+    margin: 0 0 1rem 0;
+    
+}
+
+.homepageSubtitle{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    color: #686D76;
+    margin: 0;
+}
+
+.illustration{
+    margin-bottom: 6rem;
+}
