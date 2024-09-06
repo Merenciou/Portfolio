@@ -4,8 +4,13 @@ function Navbar (){
     return (
         <nav className='navbarDesktop'>
             <div className='containerOne'>
-                <ul><h1 className='logo'>Vitor </h1></ul>
-                <ul><h1 className='logo'>Merencio</h1></ul>
+                <ul>
+                    <h1>
+                        <span class="logoName">Vitor </span> 
+                        <span class="logoLastName">Merencio</span>
+                    </h1>
+                </ul>
+                
                 
             </div>
             

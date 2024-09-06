@@ -6,15 +6,20 @@
     justify-content: space-between;
 }
 
-.logo{
+.logoName, .logoLastName{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    color: #021526;
+    font-weight: 600;
+    font-style: normal;  
     justify-content: center;
-    padding: 0 0 0 0;
+}
 
+.logoName{
+    color: #021526;
+}
+
+.logoLastName{
+    color: beige;
 }
 
 .containerOne{
