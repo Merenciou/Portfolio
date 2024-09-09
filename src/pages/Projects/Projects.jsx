@@ -83,6 +83,93 @@ function Projects(){
 
     }
 
+    function selectButtonIndexOne(){
+        setProjectIndex(projectIndex = 0);
+        switch (projectIndex) {
+            case 0:
+                setTitleIndex(titleIndex = 'Viver');
+                setSubtitleIndex(subtitleIndex = 'Viver é um aplicativo de bem estar para o dia a dia');
+                setButtonIndexOne(buttonIndexOne = 'white');
+                setButtonIndexTwo(buttonIndexTwo = 'grey');
+                setButtonIndexThree(buttonIndexThree = 'grey');
+                break;
+            case 1:
+                setTitleIndex(titleIndex = 'Valorize');
+                setSubtitleIndex(subtitleIndex = 'Valorize é um aplicativo de pesquisa de preços em supermercados');
+                setButtonIndexOne(buttonIndexOne = 'grey');
+                setButtonIndexTwo(buttonIndexTwo = 'white');
+                setButtonIndexThree(buttonIndexThree = 'grey');    
+                break;
+            case 2:
+                setTitleIndex(titleIndex = 'ICondimento');
+                setSubtitleIndex(subtitleIndex = 'ICondimento é um aplicativo de informações culinárias');
+                setButtonIndexOne(buttonIndexOne = 'grey');
+                setButtonIndexTwo(buttonIndexTwo = 'grey');
+                setButtonIndexThree(buttonIndexThree = 'white');        
+                break;
+            default:
+                break;
+           }
+    }
+
+    function selectButtonIndexTwo(){
+        setProjectIndex(projectIndex = 1);
+        switch (projectIndex) {
+            case 0:
+                setTitleIndex(titleIndex = 'Viver');
+                setSubtitleIndex(subtitleIndex = 'Viver é um aplicativo de bem estar para o dia a dia');
+                setButtonIndexOne(buttonIndexOne = 'white');
+                setButtonIndexTwo(buttonIndexTwo = 'grey');
+                setButtonIndexThree(buttonIndexThree = 'grey');
+                break;
+            case 1:
+                setTitleIndex(titleIndex = 'Valorize');
+                setSubtitleIndex(subtitleIndex = 'Valorize é um aplicativo de pesquisa de preços em supermercados');
+                setButtonIndexOne(buttonIndexOne = 'grey');
+                setButtonIndexTwo(buttonIndexTwo = 'white');
+                setButtonIndexThree(buttonIndexThree = 'grey');    
+                break;
+            case 2:
+                setTitleIndex(titleIndex = 'ICondimento');
+                setSubtitleIndex(subtitleIndex = 'ICondimento é um aplicativo de informações culinárias');
+                setButtonIndexOne(buttonIndexOne = 'grey');
+                setButtonIndexTwo(buttonIndexTwo = 'grey');
+                setButtonIndexThree(buttonIndexThree = 'white');        
+                break;
+            default:
+                break;
+           }
+    }
+
+    function selectButtonIndexThree(){
+        setProjectIndex(projectIndex = 2);
+        switch (projectIndex) {
+            case 0:
+                setTitleIndex(titleIndex = 'Viver');
+                setSubtitleIndex(subtitleIndex = 'Viver é um aplicativo de bem estar para o dia a dia');
+                setButtonIndexOne(buttonIndexOne = 'white');
+                setButtonIndexTwo(buttonIndexTwo = 'grey');
+                setButtonIndexThree(buttonIndexThree = 'grey');
+                break;
+            case 1:
+                setTitleIndex(titleIndex = 'Valorize');
+                setSubtitleIndex(subtitleIndex = 'Valorize é um aplicativo de pesquisa de preços em supermercados');
+                setButtonIndexOne(buttonIndexOne = 'grey');
+                setButtonIndexTwo(buttonIndexTwo = 'white');
+                setButtonIndexThree(buttonIndexThree = 'grey');    
+                break;
+            case 2:
+                setTitleIndex(titleIndex = 'ICondimento');
+                setSubtitleIndex(subtitleIndex = 'ICondimento é um aplicativo de informações culinárias');
+                setButtonIndexOne(buttonIndexOne = 'grey');
+                setButtonIndexTwo(buttonIndexTwo = 'grey');
+                setButtonIndexThree(buttonIndexThree = 'white');        
+                break;
+            default:
+                break;
+           }
+    }
+
 
     return(
         <div>
@@ -97,9 +184,9 @@ function Projects(){
                     <h4 className='projectSubtitle'>{subtitleIndex}</h4>
                 </div>
                 <div className='indexContainer'>
-                    <button className='buttonIndex' style={{backgroundColor: `${buttonIndexOne}`}}></button>
-                    <button className='buttonIndex' style={{backgroundColor: `${buttonIndexTwo}`}}></button>
-                    <button className='buttonIndex' style={{backgroundColor: `${buttonIndexThree}`}}></button>
+                    <button className='buttonIndex' onClick={selectButtonIndexOne} style={{backgroundColor: `${buttonIndexOne}`}}></button>
+                    <button className='buttonIndex' onClick={selectButtonIndexTwo} style={{backgroundColor: `${buttonIndexTwo}`}}></button>
+                    <button className='buttonIndex' onClick={selectButtonIndexThree} style={{backgroundColor: `${buttonIndexThree}`}}></button>
 
 
                 </div>
