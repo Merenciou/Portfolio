@@ -52,7 +52,6 @@
     justify-content: center;
     background-color: white;
     border-radius: 20%;
-    transition: opacity 0.5s;
 }
 
 .knowledgeTitle{
@@ -61,7 +60,7 @@
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
-    color: #0f1c27;
+    color: #354e64b0;
     text-align: center;
     user-select: none;
     -moz-user-select: none;
@@ -77,18 +76,9 @@
     -moz-user-select: none;
     -webkit-user-select: none; 
     -ms-user-select: none;
-    transition: opacity 0.5s;
 }
 
 .knowlegdesImgs:hover{
     scale: 1.2;
-    transition: 600ms;
+    transition: 700ms;
 }
-
-.knowlegdesImgs.fade-out {
-    opacity: 0;
-}
-
-.knowlegdesImgs.fade-in {
-    opacity: 1;
-  }
