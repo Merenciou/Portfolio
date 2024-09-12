@@ -600,9 +600,9 @@
 <g transform="translate(864,912) scale(4.12)"><rect width="6" height="6"/></g>
 <g transform="translate(888,912) scale(4.12)"><rect width="6" height="6"/></g>
 <g transform="translate(912,912) scale(4.12)"><rect width="6" height="6"/></g>
-</g><g><g transform="translate(48,48)"  fill="#000000"><g transform="scale(12)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"/></g></g>
-<g transform="translate(768,48)"  fill="#00000"><g transform="scale(12)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"/></g></g>
-<g transform="translate(48,768)"  fill="#00000"><g transform="scale(12)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"/></g></g>
+</g><g><g transform="translate(48,48)"  fill="#f5f5dc"><g transform="scale(12)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"/></g></g>
+<g transform="translate(768,48)"  fill="#f5f5dc"><g transform="scale(12)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"/></g></g>
+<g transform="translate(48,768)"  fill="#f5f5dc"><g transform="scale(12)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"/></g></g>
 <g transform="translate(96,96)"  fill="#f5f5dc"><g transform="scale(12)"><rect width="6" height="6"/></g></g>
 <g transform="translate(816,96)"  fill="#f5f5dc"><g transform="scale(12)"><rect width="6" height="6"/></g></g>
 <g transform="translate(96,816)"  fill="#f5f5dc"><g transform="scale(12)"><rect width="6" height="6"/></g></g></g>
