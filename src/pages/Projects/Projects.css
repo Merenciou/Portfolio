@@ -1,18 +1,52 @@
 #projectsPage{
     width: 100%;
-    height: 55vh;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 10rem;
-    background-color: beige;
+    justify-content: space-evenly;   
 }
 
-.mainContainer{
+.mainContainerProjects{
     width: 100%;
-    height: 70%;
-    color: yellow ;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #5B99C2;
+}
+
+.containerPrimaryProjects{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitle{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 90px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0f1c27;
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+
+}
+
+.containerSecondaryProjects{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardProjects{
+    width: 100%;
+    height: 20rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,7 +59,7 @@
     color: #021526;
     width: 5rem;
     height: 5rem;
-    margin-right: 5rem;
+    margin: 4rem 5rem 0 0;
 }
 
 .arrowLeft:hover{
@@ -36,8 +70,8 @@
 }
 
 .projectImage{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
     margin: 0;
     border-radius: 10%;
     background-color: white;
@@ -51,18 +85,17 @@
     color: #021526;
     width: 5rem;
     height: 5rem;
-    margin-left: 5rem;
+    margin: 4rem 0 0 5rem;
 }
 
 .arrowRight:hover{
-    color: grey;
     scale: 1.1;
     transition: 500ms;
     cursor: pointer;
 }
 
 .infoContainer{
-    width: 50rem;
+    width: 100%;
     height: 6rem;
     display: flex;
     flex-direction: column;
@@ -87,7 +120,7 @@
     font-size: 22px;
     font-weight: 500;
     font-style: normal;
-    color: #596168;
+    color: beige;
     margin: 0;
     padding: 0;
 }
@@ -103,7 +136,7 @@
 .buttonIndex{
     width: 2rem;
     height: 0.5rem;
-    background-color: white;
+    background-color: beige;
     border: none;
     border-radius: 20%;
     transition: 1s;
@@ -112,5 +145,4 @@
 .buttonIndex:hover{
     cursor: pointer;
     scale: 1.2;
-    background-color: whitesmoke;
 }

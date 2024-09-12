@@ -1,22 +1,32 @@
 #homePage{
     width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0; 
+}
+
+.mainContainerHome{
+    width: 100%;
     height: 60vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 10rem;
-    background-color: beige;
+    background-color: #5B99C2;
 }
 
-.containerTitles{
+.containerPrimaryHome{
     display: flex;
     flex-direction: column;
     align-items: start;
+    width: 50%;
     height: 100%;
     justify-content: center;
     margin: 0;
 }
+
 
 .homepageTitle{
     font-family: "Montserrat", sans-serif;
@@ -35,7 +45,7 @@
     font-size: 40px;
     font-weight: 500;
     font-style: normal;
-    color: #686D76;
+    color: beige;
     margin: 0;
 }
 

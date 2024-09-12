@@ -31,37 +31,35 @@ function Knowledges(){
     return (
         <div>
             <section id="knowledgesPage">
-            <div className='mainContainer'>
+            <div className='mainContainerKnowledges'>
+                <div className='containerPrimaryKnowledge'>
+                    <h1 className='mainTitle'>Conhecimentos</h1>
+
+                </div>
+                <div className='containerSecondaryKnowledge'>
                     <RiArrowLeftSLine className='arrowLeft' onClick={previewFunction} />
-                    <div className='card'>
-                        <div className='containerImg'>
-                            <img src={`${pathImg[knowledgeIndex + 0]}.png`} alt="flutter" className='knowlegdesImgs' />
-                            
+                        <div className='card'>
+                            <div className='containerImg'>
+                                <img src={`${pathImg[knowledgeIndex + 0]}.png`} alt="flutter" className='knowlegdesImgs' />                           
+                            </div>
+                            <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 0]}</h3>
                         </div>
-                        <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 0]}</h3>
-
-                    </div>
-                    <div className='card'>
-                        <div className='containerImg'>
-                            <img src={`${pathImg[knowledgeIndex + 1]}.png`} alt="dart" className='knowlegdesImgs' />
+                        <div className='card'>
+                            <div className='containerImg'>
+                                <img src={`${pathImg[knowledgeIndex + 1]}.png`} alt="dart" className='knowlegdesImgs' />
+                            </div>
+                            <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 1]}</h3>
                         </div>
-                        <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 1]}</h3>
-
-                    </div>
-                    <div className='card'>
-                        <div className='containerImg'>
-                            <img src={`${pathImg[knowledgeIndex + 2]}.png`} alt="javascript" className='knowlegdesImgs' />
-                        </div>
-                        <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 2]}</h3>
-
-                    </div>
-                    
-                    
-                    
-                    
-                    
-                    
+                        <div className='card'>
+                            <div className='containerImg'>
+                                <img src={`${pathImg[knowledgeIndex + 2]}.png`} alt="javascript" className='knowlegdesImgs' />
+                            </div>
+                            <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 2]}</h3>
+                        </div> 
                     <RiArrowRightSLine className='arrowRight' onClick={nextFunction} />
+
+                </div>
+                    
                 </div>
             </section>
         </div>

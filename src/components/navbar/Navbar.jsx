@@ -6,8 +6,8 @@ function Navbar (){
             <div className='containerOne'>
                 <ul>
                     <h1>
-                        <span class="logoName">Vitor </span> 
-                        <span class="logoLastName">Merencio</span>
+                        <span className="logoName">Vitor </span> 
+                        <span className="logoLastName">Merencio</span>
                     </h1>
                 </ul>
                 
@@ -17,27 +17,27 @@ function Navbar (){
             <div className='containerTwo'>
             <ul className='navDesktop'>
                 <li className='navItem'>
-                    <a href="" className='navText' >Página Inicial</a>
+                    <a href="#homePage" className='navText' >Página Inicial</a>
                 </li>
             </ul>
             <ul className='navDesktop'>
                 <li className='navItem'>
-                    <a href="" className='navText' >Sobre</a>
+                    <a href="#aboutPage" className='navText' >Sobre</a>
                 </li>
             </ul>
             <ul className='navDesktop'>
                 <li className='navItem'>
-                    <a href="" className='navText' >Projetos</a>
+                    <a href="#projectsPage" className='navText' >Projetos</a>
                 </li>
             </ul>
             <ul className='navDesktop'>
                 <li className='navItem'>
-                    <a href="" className='navText' >Conhecimentos</a>
+                    <a href="#knowledgesPage" className='navText' >Conhecimentos</a>
                 </li>
             </ul>
             <ul className='navDesktop'>
                 <li className='navItem'>
-                    <a href="" className='navText' >Contato</a>
+                    <a href="#contactPage" className='navText' >Contato</a>
                 </li>
             </ul>
 

@@ -1,4 +1,4 @@
-import './Project.css';
+import './Projects.css';
 import { useState } from 'react';
 import { RiArrowLeftSLine } from "react-icons/ri";
 import { RiArrowRightSLine } from "react-icons/ri";
@@ -174,23 +174,32 @@ function Projects(){
     return(
         <div>
             <section id='projectsPage'>
-                <div className='mainContainer'>
-                    <RiArrowLeftSLine className='arrowLeft' onClick={previewFunction}/>
-                    <img src="./viver.png" alt="projeto" className='projectImage' />
-                    <RiArrowRightSLine className='arrowRight' onClick={nextFunction}/>
-                </div>
-                <div className='infoContainer'>
-                    <h3 className='projectTitle'>{titleIndex}</h3>
-                    <h4 className='projectSubtitle'>{subtitleIndex}</h4>
-                </div>
-                <div className='indexContainer'>
-                    <button className='buttonIndex' onClick={selectButtonIndexOne} style={{backgroundColor: `${buttonIndexOne}`}}></button>
-                    <button className='buttonIndex' onClick={selectButtonIndexTwo} style={{backgroundColor: `${buttonIndexTwo}`}}></button>
-                    <button className='buttonIndex' onClick={selectButtonIndexThree} style={{backgroundColor: `${buttonIndexThree}`}}></button>
-
-
-                </div>
             
+                <div className='mainContainerProjects'>
+                    <div className='containerPrimaryProjects'>
+                        <h1 className='mainTitle'>Projetos</h1>
+
+                    </div>
+                    <div className='containerSecondaryProjects'>
+                        <div className='cardProjects'>
+                            <RiArrowLeftSLine className='arrowLeft' onClick={previewFunction}/>
+                            <img src="./viver.png" alt="projeto" className='projectImage' />
+                            <RiArrowRightSLine className='arrowRight' onClick={nextFunction}/>
+                        </div>
+                        <div className='infoContainer'>
+                            <h3 className='projectTitle'>{titleIndex}</h3>
+                            <h4 className='projectSubtitle'>{subtitleIndex}</h4>
+                        </div>
+                        <div className='indexContainer'>
+                            <button className='buttonIndex' onClick={selectButtonIndexOne} style={{backgroundColor: `${buttonIndexOne}`}}></button>
+                            <button className='buttonIndex' onClick={selectButtonIndexTwo} style={{backgroundColor: `${buttonIndexTwo}`}}></button>
+                            <button className='buttonIndex' onClick={selectButtonIndexThree} style={{backgroundColor: `${buttonIndexThree}`}}></button>
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>                     
             </section>
         </div>
     )

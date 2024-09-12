@@ -4,11 +4,14 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 
 .logoName, .logoLastName{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;  
     justify-content: center;
@@ -19,7 +22,7 @@
 }
 
 .logoLastName{
-    color: beige;
+    color: #418dc0;
 }
 
 .containerOne{
@@ -34,19 +37,17 @@
     margin: 0;
 }
 
-
-
 .navDesktop{
     flex-direction: row;
     list-style-type: none;
 }
 
-.navText{
-    
+.navText{  
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 550;
     font-style: normal;
     color: #021526;
 }
