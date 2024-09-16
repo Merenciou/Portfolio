@@ -34,8 +34,8 @@
     color: #021526;
     width: 5rem;
     height: 5rem;
-    margin-right: 2rem;
-    margin-bottom: 4rem;
+    margin: 0 2rem 5rem 0;
+    
 }
 
 .arrowLeft:hover{
@@ -51,6 +51,7 @@
     height: 5rem;
     margin-left: 2rem;
     margin-bottom: 4rem;
+    margin: 0 0 5rem 2rem;
 }
 
 .arrowRight:hover{

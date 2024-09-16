@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* ::-webkit-scrollbar {
+    width: 5px;    
+}
+  
+* ::-webkit-scrollbar-thumb {
+    background-color: #5B99C2;
+    border-radius: 10px;
+    padding: 10px;
+}
+  
+* ::-webkit-scrollbar-track {
+    background-color: #ffff;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+#homePage, #aboutPage, #projectsPage, #knowledgesPage, #contactPage{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: grid;
+    transition: 3s;
+}

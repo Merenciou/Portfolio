@@ -1,11 +1,12 @@
 .navbarDesktop{
-    width: 95vw;
+    width: 100%;
     height: 5rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
+    padding: 0 20px 0 20px;
 }
 
 .logoName, .logoLastName{
@@ -32,9 +33,10 @@
 }
 
 .containerTwo{
+    width: 35%;
     display: flex;
     flex-direction: row;
-    margin: 0;
+    justify-content: space-between;
 }
 
 .navDesktop{

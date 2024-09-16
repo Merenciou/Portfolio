@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import './main.css'
 import Home from './pages/Home/Home'
 import Navbar  from './components/navbar/Navbar'
 import About from './pages/About/About'
@@ -10,18 +11,14 @@ import Contact from './pages/Contact/Contact'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {
-      <div>
+      <div className='wrapper'>
         <Navbar/>
         <Home/>
         <About/>
         <Projects/>
         <Knowledges/>
         <Contact/>
-        
-
       </div>
-      
-    
     }
   </StrictMode>,
 )
