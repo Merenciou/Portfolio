@@ -10,11 +10,11 @@ function About(){
                             <h1 className='aboutTitle'>Sobre</h1>
                         </div>
                         <div className='containerSecondaryAbout'>
-                            <h2 className='aboutSubtitle'>Me chamo Vitor Merencio, <br />
-                                tenho 26 anos de idade. <br />
-                                Iniciei meus estudos no mundo do desenvolvimento em 2021 <br />
-                                com Javascript no Desenvolvimento Web,<br />
-                                A dois atrás surgiu uma curiosidade no Flutter e utilizo até os dias atuais.<br />    
+                            <h2 className='aboutSubtitle'>Me chamo Vitor Merencio, 
+                                tenho 26 anos de idade. 
+                                Iniciei meus estudos no mundo do desenvolvimento em 2021 
+                                com Javascript no Desenvolvimento Web,
+                                A dois atrás surgiu uma curiosidade no Flutter e utilizo até os dias atuais.    
                             </h2>
                         </div>
                     </div>

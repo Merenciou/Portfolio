@@ -41,7 +41,7 @@
 .aboutTitle{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 90px;
+    font-size: 550%;
     font-weight: 500;
     font-style: normal;
     color: #021526;    
@@ -50,11 +50,38 @@
 .aboutSubtitle{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 30px;
+    font-size: 200%;
     font-weight: 500;
     font-style: normal;
     color: beige;
     margin: 0;
-    
+}
 
+@media (max-width: 768px){
+
+    .containerAbout{
+        flex-direction: column;
+
+    }
+    .aboutTitle{
+        font-size: 200%;
+    }
+
+    .aboutSubtitle{
+        font-size: 130%;
+    }
+
+    .containerPrimaryAbout{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerSecondaryAbout{
+        width: 80%;
+        height: 50vh;
+        text-align: center;
+    }
+    
 }
