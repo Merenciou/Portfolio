@@ -27,11 +27,23 @@
     margin: 0;
 }
 
+.homepageTitle {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.homepageTitle span {
+    flex-basis: 100%;
+}
+  
+.homepageTitle span:last-child {
+    margin-top: 0;
+}
 
 .homepageTitle{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 100px;
+    font-size: 630%;
     font-weight: 500;
     font-style: normal;
     color: #021526;
@@ -42,7 +54,7 @@
 .homepageSubtitle{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 40px;
+    font-size: 250%;
     font-weight: 500;
     font-style: normal;
     color: beige;
@@ -51,4 +63,42 @@
 
 .illustration{
     margin-bottom: 6rem;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .mainContainerHome{
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .containerPrimaryHome{
+        align-items: center;
+        margin: 0 0 0 0;
+        height: 50vh;
+    }
+
+    .containerSecondaryHome{
+        height: 50vh;
+    }
+
+    .homepageTitle{
+        font-size: 200%;
+        flex-wrap: nowrap;
+    }
+
+    .homepageTitle span:last-child {
+        flex-basis: auto;
+        margin-left: 0.5rem;
+      }
+
+    .homepageSubtitle{
+        font-size: 130%;
+    }
+
+    .illustration{
+        width: 100%;
+        margin: 0;
+    }
 }
