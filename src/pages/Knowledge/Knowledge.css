@@ -20,6 +20,15 @@
     text-align: center;
 }
 
+.mainTitle{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 550%;
+    font-weight: 550;
+    font-style: normal;
+    color: #021526; 
+}
+
 .containerSecondaryKnowledge{
     width: 40%;
     height: 30vh;
@@ -90,6 +99,7 @@
     -moz-user-select: none;
     -webkit-user-select: none; 
     -ms-user-select: none;
+    margin-top: 0.8rem;
 }
 
 .knowlegdesImgs{
@@ -111,6 +121,10 @@
 
     .mainContainerKnowledges{
         flex-direction: column;
+    }
+
+    .mainTitle{
+        font-size: 200%;
     }
 
     .knowledgeTitle{

@@ -23,8 +23,8 @@
 .contactTitle{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 90px;
-    font-weight: 500;
+    font-size: 550%;
+    font-weight: 550;
     font-style: normal;
     color: #021526;
 }
@@ -141,4 +141,38 @@
 .alert.error {
     background-color: #f7cac9;
     color: #e74c3c;
+}
+
+@media (max-width: 768px){
+    .mainContainerContact{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .containerPrimaryContact{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerSecondaryContact{
+        width: 100%;
+    }
+
+    .contactTitle{
+        font-size: 200%;
+    }
+
+    .whatsappImg{
+        width: 60%;
+    }
+
+    .iconSubtitle{
+        font-size: 110%;
+        margin-top: -0.5rem;
+    }
+
+    
 }

@@ -27,28 +27,24 @@
     margin: 0;
 }
 
-.homepageTitle {
+.homepageTitle{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 630%;
+    font-weight: 550;
+    font-style: normal;
+    color: #021526;
+    margin: 0 0 1rem 0;
     display: flex;
     flex-wrap: wrap;
 }
-  
+
 .homepageTitle span {
     flex-basis: 100%;
 }
   
 .homepageTitle span:last-child {
     margin-top: 0;
-}
-
-.homepageTitle{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 630%;
-    font-weight: 500;
-    font-style: normal;
-    color: #021526;
-    margin: 0 0 1rem 0;
-    
 }
 
 .homepageSubtitle{

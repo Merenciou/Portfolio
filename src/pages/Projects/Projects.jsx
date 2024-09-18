@@ -177,7 +177,7 @@ function Projects(){
             
                 <div className='mainContainerProjects'>
                     <div className='containerPrimaryProjects'>
-                        <h1 className='mainTitle'>Projetos</h1>
+                        <h1 className='projectTitle'>Projetos</h1>
                     </div>
                     <div className='containerSecondaryProjects'>
                         <div className='cardProjects'>
@@ -186,8 +186,8 @@ function Projects(){
                             <RiArrowRightSLine className='arrowRightProjects' onClick={nextFunction}/>
                         </div>
                         <div className='infoContainer'>
-                            <h3 className='projectTitle'>{titleIndex}</h3>
-                            <h4 className='projectSubtitle'>{subtitleIndex}</h4>
+                            <h3 className='projectName'>{titleIndex}</h3>
+                            <h4 className='projectDescription'>{subtitleIndex}</h4>
                         </div>
                         <div className='indexContainer'>
                             <button className='buttonIndex' onClick={selectButtonIndexOne} style={{backgroundColor: `${buttonIndexOne}`}}></button>

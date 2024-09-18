@@ -23,16 +23,13 @@
     align-items: center;
 }
 
-.mainTitle{
+.projectTitle{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-size: 550%;
-    font-weight: 600;
+    font-weight: 550;
     font-style: normal;
-    color: #0f1c27;
-    margin: 0 0 0.5rem 0;
-    padding: 0;
-
+    color: #021526;
 }
 
 .containerSecondaryProjects{
@@ -123,7 +120,7 @@
     padding: 0;
 }
 
-.projectSubtitle{
+.projectDescription{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-size: 22px;
@@ -162,15 +159,15 @@
         flex-direction: column;
     }
     
-    .mainTitle{
+    .projectTitle{
         font-size: 200%;
     }
 
-    .projectTitle{
+    .projectName{
         font-size: 130%;
     }
 
-    .projectSubtitle{
+    .projectDescription{
         font-size: 100%;
         margin: 0.5rem 0 2.5rem 0;
     }
