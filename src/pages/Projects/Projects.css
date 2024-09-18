@@ -112,12 +112,20 @@
 .projectTitle{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 26px;
+    font-size: 550%;
     font-weight: 600;
     font-style: normal;
     color: #0f1c27;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0 0;
     padding: 0;
+}
+
+.projectName{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 200%;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .projectDescription{
