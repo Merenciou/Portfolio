@@ -60,13 +60,6 @@ function Navbar (){
                 </div>
             </nav>
             <div className='coverMenu'>
-
-
-
-
-
-
-
                 <nav className='navMobile' >
                     <div className='burger-menu' onClick={updateMenu}>
                         <div className={burger_class}></div>
@@ -74,33 +67,32 @@ function Navbar (){
                         <div className={burger_class}></div>
                     </div>
                 </nav>
-
                 <div className={menu_class}>
 
                     <div className='menuItems'>
                         <ul className='navDesktop'>
                             <li className='navItem'>
-                                <a href="#homePage" className='navText' >Página Inicial</a>
+                                <a href="#homePage" className='navText' onClick={updateMenu}>Página Inicial</a>
                             </li>
                         </ul>
                         <ul className='navDesktop'>
                             <li className='navItem'>
-                                <a href="#aboutPage" className='navText' >Sobre</a>
+                                <a href="#aboutPage" className='navText' onClick={updateMenu}>Sobre</a>
                             </li>
                         </ul>
                         <ul className='navDesktop'>
                             <li className='navItem'>
-                                <a href="#projectsPage" className='navText' >Projetos</a>
+                                <a href="#projectsPage" className='navText' onClick={updateMenu}>Projetos</a>
                             </li>
                         </ul>
                         <ul className='navDesktop'>
                             <li className='navItem'>
-                                <a href="#knowledgesPage" className='navText' >Conhecimentos</a>
+                                <a href="#knowledgesPage" className='navText' onClick={updateMenu}>Conhecimentos</a>
                             </li>
                         </ul>
                         <ul className='navDesktop'>
                             <li className='navItem'>
-                                <a href="#contactPage" className='navText' >Contato</a>
+                                <a href="#contactPage" className='navText' onClick={updateMenu}>Contato</a>
                             </li>
                         </ul>
                     </div>
