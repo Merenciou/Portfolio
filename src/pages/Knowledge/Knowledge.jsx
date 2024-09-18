@@ -40,19 +40,19 @@ function Knowledges(){
                     <RiArrowLeftSLine className='arrowLeft' onClick={previewFunction} />
                         <div className='card'>
                             <div className='containerImg'>
-                                <img src={`${pathImg[knowledgeIndex + 0]}.png`} alt="flutter" className='knowlegdesImgs' />                           
+                                <img src={`${pathImg[knowledgeIndex + 0]}.png`} alt="projectImgs" className='knowlegdesImgs' />                           
                             </div>
                             <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 0]}</h3>
                         </div>
                         <div className='card'>
                             <div className='containerImg'>
-                                <img src={`${pathImg[knowledgeIndex + 1]}.png`} alt="dart" className='knowlegdesImgs' />
+                                <img src={`${pathImg[knowledgeIndex + 1]}.png`} alt="projectImgs" className='knowlegdesImgs' />
                             </div>
                             <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 1]}</h3>
                         </div>
                         <div className='card'>
                             <div className='containerImg'>
-                                <img src={`${pathImg[knowledgeIndex + 2]}.png`} alt="javascript" className='knowlegdesImgs' />
+                                <img src={`${pathImg[knowledgeIndex + 2]}.png`} alt="projectImgs" className='knowlegdesImgs' />
                             </div>
                             <h3 className='knowledgeTitle'>{knowledgeName[knowledgeIndex + 2]}</h3>
                         </div> 
