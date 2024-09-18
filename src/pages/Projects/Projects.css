@@ -26,7 +26,7 @@
 .mainTitle{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: 90px;
+    font-size: 550%;
     font-weight: 600;
     font-style: normal;
     color: #0f1c27;
@@ -46,7 +46,7 @@
 
 .cardProjects{
     width: 100%;
-    height: 20rem;
+    height: 35vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -55,14 +55,22 @@
     padding: 0;
 }
 
-.arrowLeft{
-    color: #021526;
-    width: 5rem;
-    height: 5rem;
-    margin: 0 0 1rem 0;
+.arrowContainer{
+    width: 30%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.342);
+    display: flex;
+    align-items: center;
 }
 
-.arrowLeft:hover{
+.arrowLeftProjects{
+    width: 5rem;
+    font-size: 90px;
+    color: #021526;
+    margin: 0 0.5rem 0 0;
+}
+
+.arrowLeftProjects:hover{
     color: grey;
     scale: 1.1;
     transition: 500ms;
@@ -81,14 +89,15 @@
     -ms-user-select: none;
 }
 
-.arrowRight{
-    color: #021526;
+.arrowRightProjects{
     width: 5rem;
-    height: 5rem;
-    margin: 0 0 1rem 0;
+    font-size: 90px;
+    color: #021526;
+    margin: 0 0 0 0.5rem;
 }
 
-.arrowRight:hover{
+.arrowRightProjects:hover{
+    color: grey;
     scale: 1.1;
     transition: 500ms;
     cursor: pointer;
@@ -145,4 +154,46 @@
 .buttonIndex:hover{
     cursor: pointer;
     scale: 1.2;
+}
+
+@media (max-width: 768px){
+
+    .mainContainerProjects{
+        flex-direction: column;
+    }
+    
+    .mainTitle{
+        font-size: 200%;
+    }
+
+    .projectTitle{
+        font-size: 130%;
+    }
+
+    .projectSubtitle{
+        font-size: 100%;
+        margin: 0.5rem 0 2.5rem 0;
+    }
+
+    .containerPrimaryProjects{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerSecondaryProjects{
+        width: 80%;
+        height: 50vh;
+        text-align: center;
+    }
+
+    /* .arrowLeftProjects{
+        
+    } */
+
+    .projectImage{
+        width: 50%;
+    }
+    
 }

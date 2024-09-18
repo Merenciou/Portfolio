@@ -178,13 +178,12 @@ function Projects(){
                 <div className='mainContainerProjects'>
                     <div className='containerPrimaryProjects'>
                         <h1 className='mainTitle'>Projetos</h1>
-
                     </div>
                     <div className='containerSecondaryProjects'>
                         <div className='cardProjects'>
-                            <RiArrowLeftSLine className='arrowLeft' onClick={previewFunction}/>
+                            <RiArrowLeftSLine className='arrowLeftProjects' onClick={previewFunction}/>                            
                             <img src="./viver.png" alt="projeto" className='projectImage' />
-                            <RiArrowRightSLine className='arrowRight' onClick={nextFunction}/>
+                            <RiArrowRightSLine className='arrowRightProjects' onClick={nextFunction}/>
                         </div>
                         <div className='infoContainer'>
                             <h3 className='projectTitle'>{titleIndex}</h3>
@@ -195,10 +194,7 @@ function Projects(){
                             <button className='buttonIndex' onClick={selectButtonIndexTwo} style={{backgroundColor: `${buttonIndexTwo}`}}></button>
                             <button className='buttonIndex' onClick={selectButtonIndexThree} style={{backgroundColor: `${buttonIndexThree}`}}></button>
                         </div>
-
-                    </div>
-                    
-                    
+                    </div>                    
                 </div>                     
             </section>
         </div>
